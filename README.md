@@ -1,2 +1,2 @@
-# OpnePractice
+# OpenPractice
 Hi
