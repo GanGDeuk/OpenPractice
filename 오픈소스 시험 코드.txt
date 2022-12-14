@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    char a[80];
+    int i,sum=0,j;
+    for(i = 0; i<5; i++) {
+    gets(a);
+    j = atoi(a);
+    sum += j;
+    }
+    printf("모든 문자열의 정수 합 : %d",sum);
+    return 0;
+}
